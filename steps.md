@@ -7,6 +7,8 @@
 7. Can test the backend out rn, or start building the frontend layout (ie the form, so you can directly test w the form). 
 8. Post building the basic frontend layout (ie the navbar, and the layout for where the form and the posts go), you build the API. 
 9. Daunting part: Add redux capabilities to your application. 
+10. Use Selectors and use dispatch shit. Honestly I could not hate redux any more. 
+11. 
 
 
 
