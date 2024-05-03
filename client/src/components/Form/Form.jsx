@@ -32,7 +32,7 @@ const Form = () => {
                 <FileBase type='file' multiple={false} onDone={({ base64 }) => setPostData({ ...postData, selectedFile: base64 })} />
             </div>
 
-            <button className='rounded-xl p-4 m-1 border-2 border-[#3E001F] w-4/5 mx-auto mt-10 hover:bg-[#982176] hover:text-[#FFE5AD] text-1xl font-playfair font-semibold'>Show her to the world</button>
+            <button className='rounded-xl p-4 m-1 border-2 border-[#3E001F] w-4/5 mx-auto mt-10 hover:bg-[#982176] hover:text-[#FFE5AD] text-1xl font-playfair font-semibold'>Show it to the world</button>
             <button className='rounded-xl p-4 m-1 border-2 border-[#3E001F] w-4/5 mx-auto  hover:bg-[#982176] hover:text-[#FFE5AD] text-1xl font-playfair font-semibold' onClick={handleClear}>Start over</button>
 
 
