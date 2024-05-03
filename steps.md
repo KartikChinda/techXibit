@@ -8,7 +8,9 @@
 8. Post building the basic frontend layout (ie the navbar, and the layout for where the form and the posts go), you build the API. 
 9. Daunting part: Add redux capabilities to your application. 
 10. Use Selectors and use dispatch shit. Honestly I could not hate redux any more. 
-11. 
+11. Create the layout of the form, and then create the functions of the form, ie onChange, onSubmit etc. 
+    11a. Whenever you are performing the onChange on a button, and the value is not just a standalone value, but say an element of an array or an object, make sure to spread the array/object first. 
+12. 
 
 
 

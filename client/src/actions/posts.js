@@ -5,3 +5,14 @@ export const getPosts = () => async (dispatch) => {
     const action = { type: 'FETCH_ALL', payload: data }
     dispatch(action);
 }
+
+
+export const createPost = (post) => async (dispatch) => {
+    try {
+        const { data } = api.createPost(post);
+        const action = { type: 'CREATE', payload: data };
+        dispatch(action);
+    } catch (error) {
+        console.log(error);
+    }
+}
